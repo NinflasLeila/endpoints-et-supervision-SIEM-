@@ -10,7 +10,7 @@
 - **Établissement** : ENSET MOHAMMEDIA
 
 ## Liens importants
-- **Rapport PDF** : `docs/rapport/Pojet_VCC_NINEFLAS_Laila.pdf`
+- **Rapport PDF** : `docs/Pojet_VCC_NINEFLAS_Laila.pdf`
 - **Dépôt GitHub** : https://github.com/NinflasLeila/endpoints-et-supervision-SIEM-
 
 ## Résumé
@@ -31,7 +31,7 @@ Le lab est réalisé sur AWS et démontre la centralisation d’événements Lin
 - **EC2-3** : Windows Server — Client Windows + agent Wazuh (+ Sysmon optionnel)
 
 ### Schéma
-- Diagramme : `docs/diagrammes/architecture.png`
+- Diagramme : `docs/architecture.jpeg`
 
 
 
@@ -42,7 +42,7 @@ Le lab est réalisé sur AWS et démontre la centralisation d’événements Lin
 - Git installé (optionnel si upload via interface web GitHub).
 
 ## Installation (serveur Wazuh)
-> Détails et commandes : `scripts/install_wazuh_server.sh`
+> Détails et commandes : `docs/install_wazuh_server.sh`
 
 Étapes :
 1. Mettre à jour la machine Ubuntu.
@@ -80,7 +80,7 @@ Les captures sont dans `docs/screenshots/`
 
 
 ## Déploiement / Reproductibilité
-Voir `deploy/DEPLOYMENT.md` pour une procédure complète :
+Voir `deploy.md` pour une procédure complète :
 - Création EC2 + Security Groups
 - Installation Wazuh
 - Enrôlement agents
@@ -88,7 +88,4 @@ Voir `deploy/DEPLOYMENT.md` pour une procédure complète :
 
 ## Structure du dépôt
 - `README.md` : documentation principale
-- `docs/` : rapport, diagrammes, captures
-- `scripts/` : scripts d’installation et d’enrôlement
-- `config/` : ports, Security Groups, inventaire d’exemple
-- `deploy/` : procédure de déploiement
+- `docs/` : rapport, diagrammes, capturesscripts d’installation et d’enrôlement , procédure de déploiement
